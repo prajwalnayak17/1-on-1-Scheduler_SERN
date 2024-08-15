@@ -1,0 +1,58 @@
+/* src/components/Login.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a2e; /* Matching dark background */
+    color: white;
+    font-family: 'Poppins', 'Arial', sans-serif; /* Updated font family */
+}
+
+.login-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #394867; /* Darker border matching the new color scheme */
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(79, 79, 79, 0.5);
+    background-color: #000000; /* Matching dark background for the container */
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff; /* Slightly off-white text for better contrast */
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #4c4d4e; /* Updated border color */
+    border-radius: 4px;
+    background-color: #333333; /* Darker input background matching the scheme */
+    color: white;
+}
+
+.input-field::placeholder {
+    color: #aaa; /* Lighter placeholder text */
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2b2929; /* Matching the new button color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #e43f5a; /* Darker hover color */
+}
