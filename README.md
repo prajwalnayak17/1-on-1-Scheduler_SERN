@@ -20,7 +20,7 @@ A scheduling application built with React for the frontend, Node.js for the back
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/scheduler-application.git
+clone the repo
 cd 1x1 Scheduler
 
 cd backend
